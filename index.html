@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="all.js">
+</head>
+<body>
+    <div class="upper">
+        <div class="heading">
+            <h2><b style="color: black;">Task</b>List</h2>   
+        </div>
+        <div class="heading1">
+            <i class="fas fa-plus-circle" onclick="xyz()" style="width: 96%; height: 40px ; color: crimson;"></i>
+      
+          </div>
+          <h4>Add List</h4>
+          <h2 class="h1"
+            style="font-family:Verdana, Geneva, Tahoma, sans-serif;top: 100px;left: 100px;color: grey;position: absolute;">No
+            more item....</h2>
+        </div>
+      
+        <modal>
+          <div id="popup">
+            <h2>Add Item</h2>
+            <input type="text" placeholder="Enter Item..." />
+            <br>
+            <button id="check" onclick="add()">ADD</button>
+          </div>
+        </modal>
+        <div id="container"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
